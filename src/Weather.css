@@ -1,3 +1,63 @@
 .Weather {
-    border: 1px solid rgb(77, 128, 255);
+    background-image: url('./abstract-backround.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    border: 1px solid rgb(67, 98, 255);
+    padding: 20px;
+    margin: 30px auto;
+    border-radius: 10px;
 }
+
+input {
+    opacity: 80%;
+    box-shadow: 10px 10px 10px 0px rgba(250, 255, 107, 0.4);
+
+}
+
+.Weather h1{
+    color: rgb(67, 98, 255);
+    font-family: "Shrikhand", serif;
+    display: block;
+    font-size: 50px;
+    margin: 20px 0px;
+}
+
+.Weather ul{
+    margin:0;
+    padding: 0;
+}
+
+.Weather li{
+    font-size: 16px;
+    list-style: none;
+}
+
+
+.Weather .temperature{
+    color: rgb(67, 98, 255);
+    font-size: 60px;
+    display: block;
+    margin:10px;
+    padding: 25px;
+    font-weight: 400;
+}
+
+.Weather .unit {
+    display: block;
+    font-size: 30px;
+    font-weight: 500;
+    position: relative;
+    top: -24px;
+    left: 64px;
+    
+}
+
+.forecast-icon {
+        display: block;
+        margin: 0 auto;
+        width: 50%;
+      position: relative;
+      top: 20px;
+    }
+
+
