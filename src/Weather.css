@@ -2,7 +2,8 @@
     background-image: url('./abstract-backround.jpg');
     background-repeat: no-repeat;
     background-size:cover;
-    border: 1px solid rgb(67, 98, 255);
+    border: 1.5px solid rgb(67, 98, 255);
+        box-shadow: 10px 10px 10px 0px rgba(250, 255, 107, 0.4);
     padding: 20px;
     margin: 30px auto;
     border-radius: 10px;
