@@ -39,7 +39,7 @@ input {
     color: rgb(67, 98, 255);
     font-size: 60px;
     display: block;
-    margin:10px;
+    margin:30px 10px 0px 5px;
     padding: 25px;
     font-weight: 450;
 }
@@ -54,12 +54,12 @@ input {
     
 }
 
-.forecast-icon {
+.Weather canvas{
         display: block;
         margin: 0 auto;
-        width: 50%;
+        width: 40%;
       position: relative;
-      top: 20px;
+      top: 30px;
     }
 
 
