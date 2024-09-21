@@ -1,5 +1,5 @@
 .Weather {
-    background-image: url('./abstract-backround.jpg');
+    background-image:url('./abstract-backround.jpg');
     background-repeat: no-repeat;
     background-size:cover;
     border: 1.5px solid rgb(67, 98, 255);
@@ -31,6 +31,7 @@ input {
 .Weather li{
     font-size: 16px;
     list-style: none;
+    opacity: 0.8;
 }
 
 
@@ -40,7 +41,7 @@ input {
     display: block;
     margin:10px;
     padding: 25px;
-    font-weight: 400;
+    font-weight: 450;
 }
 
 .Weather .unit {
