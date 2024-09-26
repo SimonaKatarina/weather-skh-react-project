@@ -46,7 +46,7 @@ input {
 
 .Weather .unit {
     display: block;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 500;
     position: relative;
     top: -24px;
