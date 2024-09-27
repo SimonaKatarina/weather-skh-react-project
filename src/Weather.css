@@ -48,6 +48,7 @@ input {
     display: block;
     font-size: 20px;
     font-weight: 500;
+    margin: 5px;
     position: relative;
     top: -24px;
     left: 64px;
