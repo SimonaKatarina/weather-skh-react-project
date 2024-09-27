@@ -3,6 +3,10 @@
 }
 
 .WeatherForecast canvas {
-    width: 15%;
     top: 0;
+}
+
+.WeatherForecast-temperature-min {
+    opacity: 60%;
+    margin-left: 5px;
 }

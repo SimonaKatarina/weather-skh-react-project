@@ -58,9 +58,8 @@ input {
 .Weather canvas{
         display: block;
         margin: 0 auto;
-        width: 40%;
       position: relative;
-      top: 30px;
+      top: 50px;
     }
 
 
