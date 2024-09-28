@@ -24,17 +24,13 @@
         return `${days[day]}`;
     }
     return (
-  <div className="WeatherForecast">
-            <div className="row">
-                <div className="col">
-                <div className="WeatherForecast-day">{day()}</div>
-                <WeatherIcon code={props.data.weather[0].icon} size={50}/>
-                <div className="WeatherForecast-temperature">
-                    <span className="WeatherForecast-temperature-max">{maxTemperature()}</span> 
-                    <span className="WeatherForecast-temperature-min">{minTemperature()}</span>
-                 </div>
-                </div>
-            </div>
+  <div>
+        <div className="WeatherForecast-day">{day()}</div>
+        <WeatherIcon code={props.data.weather[0].icon} size={50}/>
+        <div className="WeatherForecast-temperature">
+        <span className="WeatherForecast-temperature-max">{maxTemperature()}</span> 
+        <span className="WeatherForecast-temperature-min">{minTemperature()}</span>
         </div>
+    </div>
     );
   }
